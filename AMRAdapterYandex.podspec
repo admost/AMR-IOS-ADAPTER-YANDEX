@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterYandex'
-  s.version          = '4.3.1.0'
+  s.version          = '4.4.2.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.vendored_libraries = 'AMRAdapterYandex/Libs/libAMRAdapterYandex.a'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
 
-  s.dependency 'AMRSDK', '~> 1.4.81'
-  s.dependency 'YandexMobileAds', '4.3.1'
+  s.dependency 'AMRSDK', '~> 1.5.0'
+  s.dependency 'YandexMobileAds', '4.4.2'
 end
