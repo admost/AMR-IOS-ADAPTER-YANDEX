@@ -19,8 +19,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.vendored_frameworks = 'AMRAdapterYandex/Libs/AMRAdapterYandex.xcframework'
   s.pod_target_xcconfig = { 
-    'OTHER_LDFLAGS' => '-ObjC -lc++',
-    "VALID_ARCHS": "arm64 armv7 x86_64",
+    'OTHER_LDFLAGS' => '-ObjC -all_load',
     'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
