@@ -18,12 +18,6 @@ Pod::Spec.new do |s|
   s.platform 			= :ios
   s.ios.deployment_target = '10.0'
   s.vendored_frameworks = 'AMRAdapterYandex/Libs/AMRAdapterYandex.xcframework'
-  s.pod_target_xcconfig = { 
-    'OTHER_LDFLAGS' => '-ObjC -all_load',
-    'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
-    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
-  }
-
   s.dependency 'AMRSDK', '~> 1.5.16'
   s.dependency 'YandexMobileAds', '5.0.2'
 end
