@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterYandex'
-  s.version          = '5.0.2.8'
+  s.version          = '5.0.2.9'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -22,16 +22,12 @@ Pod::Spec.new do |s|
 
   s.user_target_xcconfig = { 
     'OTHER_LDFLAGS' => '-ObjC -all_load -lc++',
-    "VALID_ARCHS": "arm64 armv7 x86_64",
-    'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
-    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
+    "VALID_ARCHS": "arm64 armv7",
   }
 
   s.pod_target_xcconfig = { 
     'OTHER_LDFLAGS' => '-ObjC -lc++',
-    "VALID_ARCHS": "arm64 armv7 x86_64",
-    'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
-    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
+    "VALID_ARCHS": "arm64 armv7",
   }
 
   s.dependency 'YandexMobileAds', '5.0.2'
