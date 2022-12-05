@@ -6,3 +6,4 @@ YandexMobileAds [changelog](https://github.com/yandexmobile/yandex-ads-sdk-ios/b
 ## [5.3.1.0] - 2022-12-05
 ### Updated
 - Offical release for YandexMobileAds 5.3.1.0
+- Min iOS version 12.0+
