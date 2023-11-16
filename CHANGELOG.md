@@ -3,6 +3,11 @@
 Changelog for AMRAdapterYandex. 
 YandexMobileAds [changelog](https://github.com/yandexmobile/yandex-ads-sdk-ios/blob/master/changelog/mobileads/CHANGELOG.md)
 
+## [6.1.0.0] - 2023-11-16
+### Updated
+- Offical release for YandexMobileAds 6.1.0.0
+- Specified compatible versions of Yandex dependencies: VGSLBase '2.2'.
+
 ## [6.0.0.0] - 2023-09-11
 ### Updated
 - Open ad support added.
