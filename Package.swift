@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AMRAdapterYandex",
-            path: "./AMRAdapterYandex/Libs/AMRAdapterYandex.xcframework"
+            path: "AMRAdapterYandex/Libs/AMRAdapterYandex.xcframework"
         ),
     ]
 )
