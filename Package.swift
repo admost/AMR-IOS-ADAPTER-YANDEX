@@ -13,9 +13,6 @@ let package = Package(
             targets: ["AMRAdapterYandex"]
         )
     ],
-    dependencies: [
-        .package(url: "https://github.com/yandexmobile/yandex-ads-sdk-ios.git", .upToNextMajor(from: "6.3.0")),
-    ],
     targets: [
         .binaryTarget(
             name: "AMRAdapterYandex",
