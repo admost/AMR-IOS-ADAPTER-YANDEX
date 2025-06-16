@@ -3,6 +3,10 @@
 Changelog for AMRAdapterYandex. 
 YandexMobileAds [changelog](https://github.com/yandexmobile/yandex-ads-sdk-ios/blob/master/changelog/mobileads/CHANGELOG.md)
 
+## [7.13.0.0] - 2025-06-16
+### Updated
+- Offical release for YandexMobileAds 7.13.0
+
 ## [7.12.3.0] - 2025-05-26
 ### Updated
 - Offical release for YandexMobileAds 7.12.3
