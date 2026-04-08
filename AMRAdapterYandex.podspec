@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_versions = ['5']
   s.vendored_frameworks = 'AMRAdapterYandex/Libs/AMRAdapterYandex.xcframework'
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.dependency 'AMRSDK', '~> 1.5.55'
   s.dependency 'YandexMobileAds', '7.18.4'
 
